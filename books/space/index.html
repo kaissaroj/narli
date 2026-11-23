@@ -15,13 +15,13 @@
 <meta property="og:url" content="https://drawingapp.kaissaroj.com/books/space/">
 <meta property="og:image" content="https://drawingapp.kaissaroj.com/img/og-alien.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/narli.png">
+<link rel="icon" href="/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preload" href="/fonts/fredoka.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/luckiest-guy.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preconnect" href="https://toolbox.marketingtools.apple.com">
 <link rel="preload" as="image" href="/img/cover-alien.webp" fetchpriority="high">
-<style>/* Narli home and book pages: a coloring sheet on sky, white paper sections below. (Help, privacy, terms use style.css.) */
-@font-face { font-family: "Fredoka"; font-style: normal; font-weight: 400 600; font-display: swap; src: url(/fonts/fredoka.woff2) format("woff2"); }
-@font-face { font-family: "Luckiest Guy"; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/luckiest-guy.woff2) format("woff2"); }
+<style>/* Fonts are subset to Latin (pyftsubset, see README). Narli home and book pages: a coloring sheet on sky, white paper sections below. (Help, privacy, terms use style.css.) */
+@font-face { font-family: "Fredoka"; font-style: normal; font-weight: 400 600; font-display: swap; src: url(/fonts/fredoka.woff2) format("woff2"); unicode-range: U+0020-007E, U+00A0, U+00A9, U+00B7, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+203A; }
+@font-face { font-family: "Luckiest Guy"; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/luckiest-guy.woff2) format("woff2"); unicode-range: U+0020-007E, U+00A0, U+00A9, U+00B7, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+203A; }
 :root {
   --ink: #2a2347; --ink-soft: #5d5780; --sky: #7fd0f5; --paper: #fff; --sun: #ffd84d; --line: #e4edf3; --blue: #1e78d6;
   --ease: cubic-bezier(0.45, 0, 0.2, 1);
@@ -143,7 +143,7 @@ footer p { margin: 10px 0 0; }
   <div>
     <h1>Space and alien coloring app for kids</h1>
     <p>15 friendly aliens and monsters from outer space, with a flying saucer pilot and a ringed planet. In Narli it's the <b>Space</b> book: tap a space to fill it, or color with crayons, glitter and patterns on iPhone and iPad.</p>
-    <a class="badge" href="https://apps.apple.com/app/id6827927460"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us" width="160" height="53" alt="Download on the App Store"></a>
+    <a class="badge" href="https://apps.apple.com/app/id6827927460"><img src="/img/app-store-badge.svg" width="160" height="53" alt="Download on the App Store"></a>
     <ul class="meta"><li>Ages 2–5</li><li>15 pictures</li><li>No ads</li><li>Works offline</li></ul>
   </div>
   <div class="cover"><img src="/img/cover-alien.webp" width="480" height="480" fetchpriority="high" alt="The Space coloring book in the Narli app"></div>
@@ -153,14 +153,14 @@ footer p { margin: 10px 0 0; }
 <main class="wrap" id="main">
   <section class="inside">
     <h2>The 15 pictures inside</h2>
-    <figure class="group"><img src="/img/group-alien.webp" width="1400" height="801" loading="lazy" alt="All 15 pictures in the Narli space and alien coloring book, together in one picture" draggable="false"></figure>
+    <figure class="group"><img src="/img/group-alien.webp" srcset="/img/group-alien-700.webp 700w, /img/group-alien.webp 1400w" sizes="(max-width: 1060px) 94vw, 1030px" width="1400" height="801" loading="lazy" decoding="async" alt="All 15 pictures in the Narli space and alien coloring book, together in one picture" draggable="false"></figure>
     <ul class="names"><li>Bat-winged alien</li><li>Blob alien</li><li>Box monster</li><li>Bug alien</li><li>Cloud alien</li><li>Crystal alien</li><li>Eight-legged alien</li><li>Fluffy-eared alien</li><li>Fuzzball alien</li><li>Jelly alien</li><li>Ringed planet</li><li>Rock monster</li><li>Flying saucer pilot</li><li>Snail alien</li><li>Tall alien</li></ul>
   </section>
 
   <section class="app">
     <img src="/img/narli-220.webp" width="110" height="110" alt="Narli the narwhal" loading="lazy">
     <div><h2>Color them in Narli</h2><p>12 coloring books in one calm app for little kids. No ads, no accounts, and a grown-ups check on every purchase.</p></div>
-    <a class="badge" href="https://apps.apple.com/app/id6827927460"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us" width="160" height="53" alt="Download on the App Store"></a>
+    <a class="badge" href="https://apps.apple.com/app/id6827927460"><img src="/img/app-store-badge.svg" width="160" height="53" alt="Download on the App Store"></a>
   </section>
 
   <section class="notes">
@@ -173,17 +173,17 @@ footer p { margin: 10px 0 0; }
   <section class="others">
     <h2>More coloring books in Narli</h2>
     <div class="shelf small">
-<a href="/books/dinosaurs/"><img src="/img/shelf-dinosaurs.webp" width="300" height="300" alt="" loading="lazy">Dinosaurs</a>
-<a href="/books/animals/"><img src="/img/shelf-animals.webp" width="300" height="300" alt="" loading="lazy">Animals</a>
-<a href="/books/princess/"><img src="/img/shelf-princess.webp" width="300" height="300" alt="" loading="lazy">Princesses</a>
-<a href="/books/ocean/"><img src="/img/shelf-underwater.webp" width="300" height="300" alt="" loading="lazy">Ocean</a>
-<a href="/books/vehicles/"><img src="/img/shelf-transport.webp" width="300" height="300" alt="" loading="lazy">Vehicles</a>
-<a href="/books/fairy-tales/"><img src="/img/shelf-fairytale.webp" width="300" height="300" alt="" loading="lazy">Fairy tales</a>
-<a href="/books/flowers/"><img src="/img/shelf-flowers.webp" width="300" height="300" alt="" loading="lazy">Flowers</a>
-<a href="/books/food/"><img src="/img/shelf-food.webp" width="300" height="300" alt="" loading="lazy">Food</a>
-<a href="/books/bugs/"><img src="/img/shelf-insects.webp" width="300" height="300" alt="" loading="lazy">Bugs</a>
-<a href="/books/robots/"><img src="/img/shelf-robots.webp" width="300" height="300" alt="" loading="lazy">Robots</a>
-<a href="/books/christmas/"><img src="/img/shelf-christmas.webp" width="300" height="300" alt="" loading="lazy">Christmas</a>
+<a href="/books/dinosaurs/"><img src="/img/shelf-dinosaurs.webp" srcset="/img/shelf-dinosaurs-200.webp 200w, /img/shelf-dinosaurs.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Dinosaurs</a>
+<a href="/books/animals/"><img src="/img/shelf-animals.webp" srcset="/img/shelf-animals-200.webp 200w, /img/shelf-animals.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Animals</a>
+<a href="/books/princess/"><img src="/img/shelf-princess.webp" srcset="/img/shelf-princess-200.webp 200w, /img/shelf-princess.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Princesses</a>
+<a href="/books/ocean/"><img src="/img/shelf-underwater.webp" srcset="/img/shelf-underwater-200.webp 200w, /img/shelf-underwater.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Ocean</a>
+<a href="/books/vehicles/"><img src="/img/shelf-transport.webp" srcset="/img/shelf-transport-200.webp 200w, /img/shelf-transport.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Vehicles</a>
+<a href="/books/fairy-tales/"><img src="/img/shelf-fairytale.webp" srcset="/img/shelf-fairytale-200.webp 200w, /img/shelf-fairytale.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Fairy tales</a>
+<a href="/books/flowers/"><img src="/img/shelf-flowers.webp" srcset="/img/shelf-flowers-200.webp 200w, /img/shelf-flowers.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Flowers</a>
+<a href="/books/food/"><img src="/img/shelf-food.webp" srcset="/img/shelf-food-200.webp 200w, /img/shelf-food.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Food</a>
+<a href="/books/bugs/"><img src="/img/shelf-insects.webp" srcset="/img/shelf-insects-200.webp 200w, /img/shelf-insects.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Bugs</a>
+<a href="/books/robots/"><img src="/img/shelf-robots.webp" srcset="/img/shelf-robots-200.webp 200w, /img/shelf-robots.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Robots</a>
+<a href="/books/christmas/"><img src="/img/shelf-christmas.webp" srcset="/img/shelf-christmas-200.webp 200w, /img/shelf-christmas.webp 300w" sizes="(max-width: 760px) 30vw, 160px" width="300" height="300" alt="" loading="lazy" decoding="async">Christmas</a>
     </div>
   </section>
 </main>

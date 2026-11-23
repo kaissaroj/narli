@@ -1,6 +1,6 @@
-/* Narli home and book pages: a coloring sheet on sky, white paper sections below. (Help, privacy, terms use style.css.) */
-@font-face { font-family: "Fredoka"; font-style: normal; font-weight: 400 600; font-display: swap; src: url(/fonts/fredoka.woff2) format("woff2"); }
-@font-face { font-family: "Luckiest Guy"; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/luckiest-guy.woff2) format("woff2"); }
+/* Fonts are subset to Latin (pyftsubset, see README). Narli home and book pages: a coloring sheet on sky, white paper sections below. (Help, privacy, terms use style.css.) */
+@font-face { font-family: "Fredoka"; font-style: normal; font-weight: 400 600; font-display: swap; src: url(/fonts/fredoka.woff2) format("woff2"); unicode-range: U+0020-007E, U+00A0, U+00A9, U+00B7, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+203A; }
+@font-face { font-family: "Luckiest Guy"; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/luckiest-guy.woff2) format("woff2"); unicode-range: U+0020-007E, U+00A0, U+00A9, U+00B7, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+203A; }
 :root {
   --ink: #2a2347; --ink-soft: #5d5780; --sky: #7fd0f5; --paper: #fff; --sun: #ffd84d; --line: #e4edf3; --blue: #1e78d6;
   --ease: cubic-bezier(0.45, 0, 0.2, 1);
